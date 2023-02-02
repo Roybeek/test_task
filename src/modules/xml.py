@@ -93,7 +93,7 @@ class TestXmlManager:
         :param save_file: полный путь к сохраняемому файлу.
         :param data: массив данных, который требуется сохранить.
         """
-        with open(save_file, 'w', newline='') as csv_file:
+        with open(save_file, 'w+', newline='') as csv_file:
             data_writer = csv.writer(csv_file, delimiter=' ', quotechar='|')
             for row in data:
                 data_writer.writerow(row)
