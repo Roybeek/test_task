@@ -1,6 +1,5 @@
 # Игнор сгенерированных файлов
-files/*.zip
-files/*.csv
+
 ### Python template
 # Byte-compiled / optimized / DLL files
 __pycache__/
